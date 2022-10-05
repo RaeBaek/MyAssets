@@ -11,6 +11,7 @@
 		1459A66428ED6DF500701EC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1459A66328ED6DF500701EC9 /* ContentView.swift */; };
 		1459A66628ED6DF700701EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1459A66528ED6DF700701EC9 /* Assets.xcassets */; };
 		1459A66928ED6DF700701EC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1459A66828ED6DF700701EC9 /* Preview Assets.xcassets */; };
+		1459A67028ED728E00701EC9 /* NavigationBarWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1459A66F28ED728E00701EC9 /* NavigationBarWithButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1459A66328ED6DF500701EC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1459A66528ED6DF700701EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1459A66828ED6DF700701EC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1459A66F28ED728E00701EC9 /* NavigationBarWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWithButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1459A66128ED6DF500701EC9 /* MyAssetsApp.swift */,
 				1459A66328ED6DF500701EC9 /* ContentView.swift */,
+				1459A66F28ED728E00701EC9 /* NavigationBarWithButton.swift */,
 				1459A66528ED6DF700701EC9 /* Assets.xcassets */,
 				1459A66728ED6DF700701EC9 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1459A67028ED728E00701EC9 /* NavigationBarWithButton.swift in Sources */,
 				1459A66428ED6DF500701EC9 /* ContentView.swift in Sources */,
 				1459A66228ED6DF500701EC9 /* MyAssetsApp.swift in Sources */,
 			);
