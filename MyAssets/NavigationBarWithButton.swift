@@ -23,11 +23,11 @@ struct NavigationBarWithButton: ViewModifier {
                     }, label: {
                         Image(systemName: "plus")
                         Text("자산추가")
-                            .font(.system(size: 12))
+                            .font(.system(size: 15))
                     }
                 )
                 .accentColor(.black)
-                .padding(EdgeInsets(top: 8, leading: 8, bottom: 8, trailing: 8))
+                .padding(EdgeInsets(top: 3, leading: 3, bottom: 3, trailing: 8))
                 .overlay(
                     RoundedRectangle(cornerRadius: 10)
                         .stroke(Color.black)
